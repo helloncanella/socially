@@ -22,7 +22,7 @@ export class PartiesList extends MeteorComponent{
       this.parties = Parties.find();
     }, true);
   }
-
+ 
   removeParty(party) {
     Parties.remove(party._id);
   }
