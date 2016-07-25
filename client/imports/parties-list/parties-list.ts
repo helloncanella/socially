@@ -21,7 +21,7 @@ export class PartiesList extends MeteorComponent{
     this.subscribe('parties', () => {
       this.parties = Parties.find();
     }, true);
-  }   
+  }    
  
   removeParty(party) {
     Parties.remove(party._id);
