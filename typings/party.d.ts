@@ -5,4 +5,5 @@ interface Party {
   description?: string;
   location: string;
   public: boolean;
+  invited?: Array<string>;
 }

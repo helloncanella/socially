@@ -46,8 +46,8 @@ export class PartiesForm extends MeteorComponent {
         (<Control>this.partiesForm.controls['location']).updateValue('');
         (<Control>this.partiesForm.controls['public']).updateValue(false);
       } else {
-        alert('Please log in to add a party');
-      }
+        alert('Please log in to add a party'); 
+      } 
     }
   }
 
