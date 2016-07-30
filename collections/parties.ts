@@ -1,5 +1,5 @@
-import {Mongo} from 'meteor/mongo';
-import {Meteor} from 'meteor/meteor';
+import { Mongo } from 'meteor/mongo';
+import { Meteor } from 'meteor/meteor';
 
 export let Parties = new Mongo.Collection<Party>('parties');
 

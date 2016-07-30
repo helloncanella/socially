@@ -7,9 +7,9 @@ import template from './parties-form.html';
 import {MeteorComponent} from 'angular2-meteor';
 import {InjectUser} from 'angular2-meteor-accounts-ui';
 
-@Component({
+@Component({ 
   selector: 'parties-form',
-  template
+  template 
 })
 
 @InjectUser("user")
